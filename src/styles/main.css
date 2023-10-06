@@ -1,0 +1,73 @@
+body {
+
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #14805e6b;
+    padding: 20px;
+    margin: 0px;
+    color: #080000;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.gridview {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    align-content: center;
+
+}
+
+.gridview__datatable {
+    border-top: 1px solid #ff1be4;
+    border-bottom: 1px solid #ff1be4;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+.gridview__datatable thead th, .gridview__datatable tbody td {
+    padding: 4px;
+}
+
+.gridview__datatable thead th {
+
+    background-color: #088891;
+    border: none;
+    text-align: left;
+    
+}
+
+.gridview__datatable tbody tr.odd td {
+    background-color: #088891;
+}
+
+.gridview__datatable tbody td {
+    transition: color 0.5s;
+}
+
+.gridview__datatable tbody td.updated {
+    transition: color 0.33s;
+    color: #ffffff;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 40px;
+    background-color: #ff1be4;
+    border-radius:16px;
+    color: #e5e5e5;
+    font-size: 0.8em;
+    border: none;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+    0.3em 0.3em 1em rgba(5, 0, 0, 0.6);
+    position: absolute;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #ccaf00;
+}
+
+
